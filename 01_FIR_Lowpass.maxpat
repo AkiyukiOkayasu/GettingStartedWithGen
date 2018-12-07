@@ -16,10 +16,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 2,
+		"gridonopen" : 1,
 		"gridsize" : [ 18.0, 18.0 ],
-		"gridsnaponopen" : 2,
-		"objectsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -30,13 +30,13 @@
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
-		"enablevscroll" : 0,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "Akiyuki_MaxTemplate",
+		"subpatcher_template" : "<none>",
 		"boxes" : [ 			{
 				"box" : 				{
 					"autofit" : 1,
@@ -100,13 +100,13 @@
 					"patching_rect" : [ 36.0, 378.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -141,11 +141,11 @@
 					"patching_rect" : [ 36.0, 270.0, 396.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab",
+							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "White noise", "Moving average_1", "Moving average_30" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab",
-							"parameter_shortname" : "live.tab"
+							"parameter_unitstyle" : 0
 						}
 
 					}
